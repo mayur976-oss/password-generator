@@ -7,6 +7,72 @@
     <title>PASSWORD GENERATOR</title>
 </head>
 <body>
+    <style>
+        *{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(83, 83, 175);
+}
+section{
+    margin-left:225px;
+    margin-top: 225px;
+}
+section input{
+    height: 25px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    width: 500px;
+    margin-left: 50px;
+    background-color: white;
+    margin-top: 50px;
+
+}
+section input :hover{
+    text-decoration: none;
+}
+section button{
+    height: 35px;
+    margin-top: 50px;
+    margin-left: 125px;
+    font-weight: 400;
+    border-radius: 25vmin;
+    font-size: 1.1em;
+    background-color: rgb(190, 83, 83);
+
+    
+}
+section{
+    height: 250px;
+    width: 550px;
+    border: 2px solid black;
+    background-color: white;
+
+}
+@media only screen and (max-width: 600px) {
+    section{
+        margin-top: 300px;
+        margin-left: 10px;
+        width: 500px;
+        height: 600px;
+
+
+    }
+    section input{
+        font-size: 3em;
+        text-wrap: wrap;
+        height: 50PX;
+        width: 450PX;
+    }
+    section button{
+        margin-top: 250px;
+        height: 40px;
+        background-color: beige;
+        margin-left: 30px;
+        font-size: 2em;
+    }
+  }
+    </style>
     <section class="PASSWORDgen">
         <input type="text" name="password" id="createpassword" placeholder="YOUR PASSWORD">
         <br/>
